@@ -442,6 +442,42 @@ padding: 0;
 margin: 0 auto;
 }
 
+.team-social{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.team-soc{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-links{
+    display:flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--accent-text-color-two);
+}
+
+.team-links:not(:last-child){
+    margin-right: 12px;
+}
+
+.team-links:hover,
+.team-links:focus{
+    background-color: var(--color-of-button);
+}
+
+.team-icons{
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    
+}
+
 /*Section 5*/
 .container {
     width: 1158px;
