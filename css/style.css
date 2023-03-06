@@ -166,16 +166,10 @@ margin-left: auto;
 }
 
 .section-section-hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/pploffice.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/pploffice.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
-    max-width: 1440px;
-    background-size: cover;
-    background-repeat: no-repeat;
     justify-content: center;
-    background-color: var(--accent-text-color);
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hero-title {
@@ -495,6 +489,7 @@ margin: 0 auto;
     text-decoration: none;
 
 }
+
 
 .footer-desc {
     font-style: normal;
