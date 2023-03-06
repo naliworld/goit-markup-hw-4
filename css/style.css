@@ -166,10 +166,16 @@ margin-left: auto;
 }
 
 .section-section-hero {
-    background: var(--accent-text-color);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/pploffice.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
+    background-size: cover;
+    background-repeat: no-repeat;
     justify-content: center;
+    background-color: var(--accent-text-color);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-title {
@@ -228,6 +234,21 @@ margin-left: auto;
     margin: 0 auto;
     padding: 0 15px;
     justify-content: center;
+}
+
+.container-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    background-color: var(--accent-color-three);
+    border-radius: 4px;
+}
+.icon{
+ height: 64px;
+ width: 64px;
 }
 
 .section-title {
