@@ -475,7 +475,6 @@ margin: 0 auto;
     width: 16px;
     height: 16px;
     fill: currentColor;
-    
 }
 
 /*Section 5*/
@@ -531,7 +530,7 @@ margin: 0 auto;
 .customer-item:not(:last-child){
     margin-right: 24px;
 }
-.customer-links{
+.link-customer-links{
     padding: 16px 32px;
     color: var(--subtle-text);
     border: 1 px var(--subtle-text);
@@ -559,11 +558,9 @@ margin: 0 auto;
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    
 }
-
-
 /*Footer logo*/ 
+
 
 .footer-web {
     font-family: 'Raleway';
@@ -598,9 +595,56 @@ margin: 0 auto;
     color: var(--color-of-paragraphs-two);
     width: 264px;
     gap: 16px;
-   
     margin-left: 0;
 }
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+}
+.footer-socials{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--background-color-etc);
+    margin-bottom: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-lists{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.footer-links{
+   display: flex;
+    fill: var(--accent-color-three);
+    width: 40px;
+    height: 40px;
+    gap: 16px;
+    border-radius: 50%;
+    background-color: var(--background-color-etc);
+}
+.footer-icons{
+ width: 24px;
+ height: 24px;
+ fill: currentColor;
+}
+
+
+
 
 /* Portfolio Page 2 */
 
