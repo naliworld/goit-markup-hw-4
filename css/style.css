@@ -171,6 +171,8 @@ margin-left: auto;
     padding-top: 188px;
     padding-bottom: 188px;
     justify-content: center;
+    width: 1440px;
+    background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -428,7 +430,7 @@ margin-left: auto;
     color: var(--color-of-paragraphs);
     padding: 0;
     margin: 0 auto;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-nm{
@@ -700,7 +702,7 @@ margin: 0 auto;
     list-style: none;
     display: inline-flex;
     justify-content: center;
-    border: transparent;
+    border-color: transparent;
 }
 .buttons-items:focus{
     transform: translateY(-4px);
@@ -762,9 +764,8 @@ margin: 0 auto;
 .card-set-info-portfolio{
     border: 1px solid var(--color-of-paragraphs-two);
     border-top: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
     padding-left: 16px;
+    padding-top: 32px;
     padding-right: 0;
     gap: 8px;
     margin: 0 auto;
@@ -791,6 +792,7 @@ cursor: pointer;
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
+    padding-bottom: 32px;
     color: var(--color-of-paragraphs);
    
 }
