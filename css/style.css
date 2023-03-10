@@ -173,6 +173,9 @@ margin-left: auto;
     justify-content: center;
     width: 1440px;
     background-repeat: no-repeat;
+    background-color: var(--accent-text-color-two);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-title {
@@ -704,9 +707,7 @@ margin: 0 auto;
     justify-content: center;
     border-color: transparent;
 }
-.buttons-items:focus{
-    transform: translateY(-4px);
-}
+
 .buttons-listing {
     color: var(--accent-text-color-two);
     font-style: normal;
@@ -727,7 +728,7 @@ margin: 0 auto;
     color: var(--background-color-etc);
     background-color: var(--accent-text-color-two);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: transparent;
+    border-color: transparent;
 }
 
 
@@ -764,11 +765,10 @@ margin: 0 auto;
 .card-set-info-portfolio{
     border: 1px solid var(--color-of-paragraphs-two);
     border-top: none;
-    padding-left: 16px;
-    padding-top: 32px;
-    padding-right: 0;
+    padding: 32px 16px;
     gap: 8px;
     margin: 0 auto;
+   
 }
 .card-set-info-portfolio:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -792,9 +792,10 @@ cursor: pointer;
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
-    padding-bottom: 32px;
     color: var(--color-of-paragraphs);
-   
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .portfolio-subtitle {
@@ -804,5 +805,8 @@ cursor: pointer;
     font-size: 20px;
     line-height: 24px;
     color: var(--accent-text-color);
+    padding: 0;
+    margin-top: 0;
+
    
 }
